@@ -1,0 +1,11 @@
+verbing = input("Please enter a verb ending in 'ing:     ")
+noun_place = input("Please enter a noun that's a place:     ")
+song = input("Please enter a song:     ")
+adjective = input("Please enter an adjective:      ")
+friend_name = input("Enter a friend's name:     ")
+verbed = input("Enter a verb enting in 'ed:     ")
+time = input("Enter an amount of time:     ")
+
+print("I was {} at the {} the other day when I heard {} come on the radio.".format(verbing, noun_place, song))
+print("I was feeling really {} and I'm pretty sure I looked super {}".format(adjective, adjective))
+print("because {} walked in and almost {}. Seriously, she {} for close to {}!".format(friend_name, verbed, verbed, time))
